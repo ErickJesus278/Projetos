@@ -1,0 +1,19 @@
+print("Filme")
+
+verificação = False
+
+while verificação == False:
+    idd = int(input("Digite a sua idade: "))
+    if(idd >= 18):
+        verificação = True
+        print("Você pode ver o filme! ")
+        break
+    adulto = input("Você está acompanhado com algum adulto? (sim/nao) ")
+    pais = input("Você tem uma autorização dos seus pais? (sim/nao) ")
+    if(idd > 14):
+        if(adulto == "sim" or pais == "sim"):
+            print("Você pode ver o filme!")
+            break
+    else:
+        print("Você não pode ver o filme!")
+        break

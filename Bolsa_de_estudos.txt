@@ -1,0 +1,9 @@
+print("Bolsa de estudos")
+
+estu = input("Você tem um GPA(Grade Point Average) de 3.5 ou mais? (sim/nao) ")
+turma = input("Você está no Top 10 da sua turma? (sim/nao) ")
+tra = input("Você realizou algum trabalho voluntário por mais de 100 horas no ultimo ano? (sim/nao) ")
+if estu == "sim" or turma == "sim" or tra == "sim" : 
+    print("Você recebeu uma bolsa de estudos, Parabéns!!! ")
+else: 
+    print("Infelizmente você não se qualifica para a bolsa de estudos! ")

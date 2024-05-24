@@ -1,0 +1,9 @@
+print("Academia de artes")
+
+po = input("Você tem um portifólio forte? (sim/nao) ")
+au = input("Você tem uma audição exelente? (sim/nao) ")
+anos = int(input("Você tem quantos anos de treinamento prévio? "))
+if po == "sim" or au == "sim" and anos >= 2 :
+    print("Você foi aceito na academia de artes!")
+else: 
+    print("Você não atende os requisitos da academia.")

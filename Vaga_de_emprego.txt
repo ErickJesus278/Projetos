@@ -1,0 +1,9 @@
+print("Vaga de emprego")
+
+iddp = int(input("Você tem quantos anos de experiência em python? "))
+iddm = int(input("Você tem quantos anos de experiência em machine learning? "))
+diplo = input("Você tem um diploma de mestrado em ciência da computação? (sim/nao) ")
+if iddp >= 3 and iddm >= 2 or diplo == "sim" : 
+    print("Você está elegível para a vaga! ")
+else : 
+    print("Você não se qualifica para a vaga! ")

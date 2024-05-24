@@ -1,0 +1,9 @@
+print("Empréstimo")
+
+renda = input("Você tem uma renda mensal de no mínimo R$2000,00? (sim/nao) ")
+sc = input("Você tem um score de crédito de no mínimo R$600,00? (sim/nao) ")
+scf = input("Você tem um fiador com um score de crédito de no mínimo R$700,00? (sim/nao) ")
+if renda == "sim" and sc == "sim" or scf == "sim" : 
+    print("Você é elegível para pegar um empréstimo. ")
+else: 
+    print("Você não está elegível para pegar um empréstimo.")

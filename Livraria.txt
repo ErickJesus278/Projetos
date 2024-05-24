@@ -1,0 +1,14 @@
+print("Livraria")
+
+bs = input("O seu livro é um best-seller? (sim/nao) ")
+tp = int(input("Em quanto tempo esse livro foi lançado(Em anos)? "))
+ql = int(input("Quantos livros você está comprando? "))
+
+bs = bs.capitalize()
+
+if(bs == "Sim" or tp >= 2):
+    print("Você tem 20% de desconto! ")
+else:
+    print("Você não tem desconto! ")
+if(ql > 3):
+    print("Você ganhou 5% de desconto adicional! ")

@@ -1,0 +1,9 @@
+print("Tabuada")
+
+numero = int(input("Digite um número: "))
+i = 0
+
+while(i <= 9):
+    i = i + 1
+    resultado = i * numero
+    print("{} X {} = {}".format(numero, i, resultado))
